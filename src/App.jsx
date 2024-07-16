@@ -1,8 +1,14 @@
-function App() {
+import Hero from './components/Hero'
+import Navbar from './components/Navbar'
+import Highlight from './components/Highlight'
+
+const App = () => {
   return (
-    <>
-      <h1 className='text-3xl font-bold underline'>hello world!</h1>
-    </>
+    <main className='bg-black text-white	'>
+      <Navbar />
+      <Hero />
+      <Highlight />
+    </main>
   )
 }
 
